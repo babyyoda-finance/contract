@@ -793,7 +793,7 @@ contract Ownable is Context {
 
 
 contract BabyYoda is ERC20("BabyYoda", "Yoda"), Ownable {
-    uint256 private _cap = 500000000e18;
+    uint256 private _cap = 5000000000000;
     uint256 private _totalLock;
 
     uint256 public lockFromBlock;
