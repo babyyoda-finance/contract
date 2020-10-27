@@ -261,7 +261,7 @@ library Address {
      *  - an externally-owned account
      *  - a contract in construction
      *  - an address where a contract will be created
-     *  - an address where a contract lived, but was destroyed
+     *  - an addraess where a contract lived, but was destroyed
      * ====
      */
     function isContract(address account) internal view returns (bool) {
@@ -305,8 +305,7 @@ library Address {
      * function instead.
      *
      * If `target` reverts with a revert reason, it is bubbled up by this
-     * function (like regular Solidity function calls).
-     *
+     * function (like regular Solidity function calls)
      * Returns the raw returned data. To convert to the expected return value,
      * use https://solidity.readthedocs.io/en/latest/units-and-global-variables.html?highlight=abi.decode#abi-encoding-and-decoding-functions[`abi.decode`].
      *
